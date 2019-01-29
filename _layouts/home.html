@@ -1,0 +1,14 @@
+---
+title: "Home page"
+---
+
+{% include header.html %}
+
+Polecane:
+<ul>
+{% for person in site.data.ppl %}
+  <li><a href="{{ person.url }}">{{ person.name }}</a></li>
+{% endfor %}
+</ul>
+
+{% include footer.html %}

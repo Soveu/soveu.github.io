@@ -1,0 +1,16 @@
+{% include header.html %}
+<div id='content'>
+{{ content }}
+</div>
+</div>
+<hr>
+<div id='footer'>
+  <ul id='tags'>
+    {% for tag in page.tags %}
+    <li>{{ tag }}</li>
+    {% endfor %}
+  </ul>
+</div>
+</div>
+</body>
+</html>
