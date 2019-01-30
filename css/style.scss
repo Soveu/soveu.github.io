@@ -1,20 +1,26 @@
 ---
 ---
 
-:root{
-  --main-font-col: #bbb;
-}
-
 body{
     font-size: 0;
-    color: var(--main-font-col);
+    color: #bbb;
     background-color: #000;
     margin: 0;
     padding: 0;
+
+    font-size: 18px;
+    //font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 pre{
     white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+pre, code{
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
 }
 
 a{
@@ -30,14 +36,9 @@ a{
 
 #wrapper{
     margin: auto;
-    min-width: 35em;
-    //max-width: 50vw;
-    max-width: 51em;
+    width: 51em;
     display: flex;
     flex-direction: column;
-
-    font-size: 16px;
-    font-family: "Lucida Console", Monaco, monospace;
 }
 
 #header{
@@ -61,7 +62,7 @@ a{
 
     & div.highlighter-rouge{
       display: block;
-      border: 1px solid #777;
+      border: 2px solid #777;
       padding: 0.3em;
       margin: 0.5em;
     }

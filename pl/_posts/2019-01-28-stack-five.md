@@ -19,9 +19,7 @@ do zadania.
 
 ```
 Welcome to phoenix/stack-five, brought to you by https://exploit.education
-If you’re happy and you know it, segmentation fault. If you’re happy and you kno
-w it, segmentation fault. If you’re happy and you know it, and you really want t
-o show it, if you’re happy and you know it, segmentation fault.
+If you’re happy and you know it, segmentation fault. If you’re happy and you know it, segmentation fault. If you’re happy and you know it, and you really want to show it, if you’re happy and you know it, segmentation fault.
 
 Segmentation fault
 ```
@@ -190,9 +188,7 @@ Welcome to phoenix/stack-five, brought to you by https://exploit.education
 whoami
 phoenix-amd64-stack-five
 id
-uid=1000(svu) gid=1000(svu) euid=405(phoenix-amd64-stack-five) egid=405(phoenix-
-amd64-stack-five) groups=405(phoenix-amd64-stack-five),24(cdrom),25(floppy),29(a
-udio),30(dip),44(video),46(plugdev),108(netdev),112(bluetooth),1000(svu)
+uid=1000(svu) gid=1000(svu) euid=405(phoenix-amd64-stack-five) egid=405(phoenix-amd64-stack-five) groups=405(phoenix-amd64-stack-five),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),108(netdev),112(bluetooth),1000(svu)
 ```
 
 ~~hmm... powłoka działa, ale program `stack-five` jest ma setuid, czyli ustawia
@@ -204,6 +200,6 @@ I tak, wiem, że zamiast
 `(cat stack5/payload; cat) | ./amd64/stack-five` mogłem napisać   
 `cat stack5/payload - | ./amd64/stack-five`
 
-*[LiveOverflow music plays](https://youtu.be/HSlhY4Uy8SA?t=729)*
+*[\*LiveOverflow music plays\*](https://youtu.be/HSlhY4Uy8SA?t=729)*
 
 <<EOF
