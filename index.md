@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home Page
+title: "Home Page"
 ---
 
 ## More things coming *\*soon\**

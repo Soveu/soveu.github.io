@@ -1,15 +1,17 @@
 ---
-title: "Home page"
 ---
 
 {% include header.html %}
 
 {{ content }}
 
-Polecane:
+See also:
 <ul>
 {% for person in site.data.ppl %}
-  <li><a href="{{ person.url }}">{{ person.name }}</a></li>
+  <li><a href="{{ person.url }}">{{ person.name }} [EN/PL]</a></li>
+{% endfor %}
+{% for person in site.data.rec-en %}
+  <li><a href="{{ person.url }}">{{ person.name }} [EN]</a></li>
 {% endfor %}
 </ul>
 

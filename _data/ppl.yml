@@ -1,8 +1,9 @@
-- name: "foxtrot"
-  url:  "https://foxtrotlabs.cc"
-
 - name: "Gynvael"
   url:  "https://gynvael.coldwind.pl"
 
 - name: "KrzaQ"
   url:  "https://dev.krzaq.cc/"
+
+- name: "foxtrot"
+  url:  "https://foxtrotlabs.cc"
+

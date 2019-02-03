@@ -3,12 +3,18 @@
 
 {% include header.html %}
 
+<h1>{{ page.newstr }}</h1>
+{% for page in site.categories[page.category] %}
+<a href='{{ page.url }}'>{{ page.date | truncate: 10, "" }}: {{ page.title }}</a>
+{% endfor %}
+
+<h1>{{ page.tagstr }}</h1>
 <ul>
 {% for tag in site.tags %}
   {% assign anyPosts = false %}
 
   {% for post in tag[1] %}
-    {% if post.categories[0] == 'en' %}
+    {% if post.categories[0] == page.category %}
       {% assign anyPosts = true %}
       <li>
         <b>{{ tag[0] }}</b>
@@ -19,7 +25,9 @@
   {% if anyPosts %}
         <ul>
     {% for post in tag[1] %}
+      {% if post.category == page.category %}
           <li><a href='{{ post.url }}'>{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
         </ul>
       </li>
