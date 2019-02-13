@@ -25,7 +25,6 @@ pre, code{
 
 a{
       text-decoration: none;
-      display: block;
       color: #eee;
 
       &:hover{
@@ -68,7 +67,7 @@ a{
     }
     & code.highlighter-rouge{
       background-color: #222;
-      padding: 0.1em;
+      padding: 0;
     }
 }
 
@@ -85,6 +84,7 @@ b {
 }
 
 .highlight .s { color: #e55; }
+.highlight .si{ color: #f66; }
 .highlight .sc{ color: #f99; }
 .highlight .s2{ color: #f99; }
 .highlight .se{ color: #f99; }

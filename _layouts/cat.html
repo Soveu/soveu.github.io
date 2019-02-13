@@ -4,9 +4,11 @@
 {% include header.html %}
 
 <h1>{{ page.newstr }}</h1>
+<ul>
 {% for page in site.categories[page.category] %}
-<a href='{{ page.url }}'>{{ page.date | truncate: 10, "" }}: {{ page.title }}</a>
+<li><a href='{{ page.url }}'>{{ page.date | truncate: 10, "" }}: {{ page.title }}</a></li>
 {% endfor %}
+</ul>
 
 <h1>{{ page.tagstr }}</h1>
 <ul>
