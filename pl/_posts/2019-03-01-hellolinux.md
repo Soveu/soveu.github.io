@@ -109,7 +109,8 @@ Nawet posiada wbudowany terminal - nie trzeba się przełączać pomiędzy róż
 
 Pewnie zapytacie *Ale jak korzystać z terminala??*
 
-Macie tu krótki cheat-sheet:
+Po prostu z niego korzystajcie :)
+Dla ułatwienia napisałem krótki cheat-sheet:
 
 * `cd katalog` - wchodzi do katalogu, bez podania go, wchodzi do głównego folderu użytkownika ($HOME lub ~)
 * `cd ..` - przejdź do poprzedniego katalogu
