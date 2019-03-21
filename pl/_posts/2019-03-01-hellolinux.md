@@ -4,6 +4,33 @@ category: pl
 tags: linux
 ---
 
+Mam wrażenie, że dużo ludzi wyobraża sobie używanie Linuxa mniej więcej tak -
+czarny ekran i dużo białego tekstu, którego nie do końca można zrozumieć.
+Jednak ten stereotyp od dawna jest już obalony. Co prawda, dalej się można
+spotkać z tym, ale jest to już albo kwestia własnej preferencji albo jest to
+częściowo konieczne - przykładowo ciężko by było przesyłać na żywo obraz
+pulpitu z serwera na drugim końcu kraju, tutaj dużo praktyczniejsze jest
+używanie komunikacji tekstowej przy pomocy SSH. Dzisiaj systemy oparte na Linuxie
+są dosyć podobne do Windowsa, dobrym przykładem mogłoby tutaj być środowisko
+pulpitowe(?) (dosłowne tłumaczenie z angielskiego "desktop environment") KDE,
+które można napotkać między innymi na takich dystrybucjach jak Kubuntu lub 
+Manjaro KDE. Praktycznie, bardzo mało rzeczy musimy robić w terminalu, ponieważ
+dużo jest graficznych programów, które są odpowiednikami tych tekstowych.
+
+Ale warto pamiętać o tym, że system operacyjny to (tylko) narzędzie, czyli
+jeżeli ktoś woli programować na Windowsie albo na Macu (chociaż MacOS jest
+częściowo oparty na Unix'ie i też można bez problemu korzystać z terminala),
+to niech programuje na Windowsie albo Macu! Stereotyp, że *"Każdy prawdziwy
+programista potrafi korzystać z Linuxa"* jest również bzdurą - od osoby,
+która miała okazję pracować dla takich korporacji jak Facebook czy Google, 
+mogę powiedzieć, że nie jest to konieczność. Warto dopowiedzieć, że
+[Gynvael Coldwind](https://gynvael.coldwind.pl/) najchętniej korzysta z Windowsa,
+a [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w) używa
+trzech systemów - Maca do pracy, Linuxa do wirtualnej maszyny (np. do pokazywania 
+exploitów), a Windowsa do montażu wideo.
+
+A teraz, przechodząc już do tematu
+
 Potrzebne rzeczy:
 * Obraz ISO [Kubuntu](https://kubuntu.org) lub innej dystrybucji Linuxa
 * [Fedora Media Writer](https://getfedora.org/pl/workstation/download/)
