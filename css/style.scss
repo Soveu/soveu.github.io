@@ -2,15 +2,13 @@
 ---
 
 body{
-    font-size: 0;
-    color: #bbb;
-    background-color: #000;
-    margin: 0;
-    padding: 0;
-
-    font-size: 18px;
-    //font-family: "Lucida Console", Monaco, monospace;
-    font-family: 'Ubuntu Mono', monospace;
+  color: #bbb;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  
+  font-size: 18px;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 strong{
@@ -18,34 +16,34 @@ strong{
 }
 
 pre{
-    white-space: pre-wrap;
-    overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-x: auto;
 }
 
 pre, code{
-    font-size: 15px;
-    font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  font-family: 'Source Code Pro', monospace;
 }
 
 a{
-      text-decoration: none;
-      color: #eee;
-
-      &:hover{
-        color: #fff;
-        text-decoration: underline;
-      }
+  text-decoration: none;
+  color: #ddd;
+  
+  &:hover{
+    color: #fff;
+    text-decoration: underline;
+  }
 }
 
 #wrapper{
-    margin: auto;
-    width: 51em;
-    display: flex;
-    flex-direction: column;
+  margin: auto;
+  width: 51em;
+  display: flex;
+  flex-direction: column;
 }
 
 #header{
-    text-align: center;
+  text-align: center;
 }
 
 #menu{
@@ -61,25 +59,25 @@ a{
 }
 
 #content{
-    margin: 0 1%;
+  margin: 0 1%;
 
-    & div.highlighter-rouge{
-      display: block;
-      border: 2px solid #777;
-      padding: 0.3em;
-      margin: 0.5em;
-    }
-    & code.highlighter-rouge{
-      background-color: #222;
-      padding: 0;
-    }
+  & div.highlighter-rouge{
+    display: block;
+    border: 2px solid #777;
+    padding: 0.3em;
+    margin: 0;
+  }
+  & code.highlighter-rouge{
+    background-color: #222;
+    padding: 0;
+  }
 }
 
 hr { margin: 15px 1%; }
 b {
-    font-size: 1.2em;
-    display: block;
-    margin: 10px;
+  font-size: 1.2em;
+  display: block;
+  margin: 10px;
 }
 
 #footer {

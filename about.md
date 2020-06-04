@@ -8,6 +8,6 @@ title: About
   "Born":   0x3a81e180,
   "Gender": GENDER_MAN,
   "Where":  "Poland, Opolskie",
-  "Skills": [],
+  "Skills": ["C/C++ programmer", "Rust programmer", "High school math"],
 }
 
